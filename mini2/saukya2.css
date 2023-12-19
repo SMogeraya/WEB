@@ -1,0 +1,419 @@
+.signup,.signup:hover{
+    background-color: rgb(119, 29, 29);
+padding: 20px;
+border-bottom: solid rgb(252, 251, 251) 2px;
+}
+.login{
+background-color: rgb(213, 62, 62);
+}
+.login:hover{
+background-color: rgb(178, 35, 49);
+
+
+}
+.topbar{
+width:100%;
+height: 60px;
+background-color: rgba(0, 0, 0, 0.823);
+border:2px solid black;
+display:flex;
+flex-direction: row;
+flex-wrap: nowrap;
+margin-top:0px;
+justify-content:space-between;
+
+}
+.icons
+{text-align:center;
+width:auto;
+height:30px;
+background-color: transparent; 
+margin:8px;
+
+margin-left:8px;
+transition:200ms;
+}
+a{
+text-decoration:none !important;
+}
+.anch,.log{
+font-size:18px;
+color:white;
+text-decoration:none;
+}
+.nav2{
+margin-top:0px;
+display:flex;
+flex-direction:row;
+justify-content:start;
+}
+.icons.lii{
+font-size:20px;
+} 
+.log{ position:relative;
+float:right;
+width:90px;
+height:30px;
+margin-top:15px;
+background-color: transparent;
+color:white;
+margin-right:5px;
+border:none;
+font-size:18px;
+padding:-5px;
+text-decoration:none;
+}
+
+.log:after{
+content:"";
+position:absolute;
+width:0%;
+height:2px;
+background-color:rgba(245, 240, 240,0.7);
+left:0;
+bottom:-5px;
+transition:0.3s;
+}
+.log:hover:after{
+width:100%;
+}
+
+.log:before{
+content:"";
+position:absolute;
+width:0%;
+height:3px;
+background-color:rgba(245, 240, 240,0.7);
+right:1px;
+top:-5px;
+transition:0.3s;
+}
+.log:hover:before{
+width:100%;
+}
+.cont {
+    width: 175vmin;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background-color: rgba(120, 43, 15, 0.912);
+    box-shadow: 4px 4px 4px 4px black;
+    height: 80% !important;
+    margin: 15% auto !important;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 10px;
+}
+body{
+height:112%;
+}
+img{
+width:100%;
+}
+
+.wrapper{
+display:none;
+width:100%;
+display: flex;
+animation:slide 15s infinite;
+}
+
+
+.wrapper img{
+min-width: 100%;
+max-height: 57%;
+object-fit: cover;/*same aspect ratio*/
+}
+.slider-nav{
+display:flex;
+column-gap:1rem;
+position:absolute;
+}
+@keyframes slide{
+0%{
+    transform: translateX(0%);
+}
+25%{
+#i1{
+transform:scale(0);
+transform:500s ease-in-out;
+
+}
+    
+}
+27%{
+    transform: translateX(-100%);
+
+}
+50%{
+#i2{
+transform:scale(0);
+transform:500s ease-in-out;}
+    transform: translateX(-100%);
+}
+55%{
+    transform: translateX(-200%);
+}
+75%{
+#i3{
+transform:scale(0);
+transform:500s ease-in-out;}
+    transform: translateX(-200%);
+}
+80%{
+    transform: translateX(-300%);
+}
+100%{
+
+    transform: translateX(-300%);
+}
+
+}
+
+.fcon{
+margin-left:10px;
+color: #FFF;
+}
+
+.loc{
+color: #FFF;
+margin-top: 45%;
+justify-content:end;
+margin-left:58%;
+}
+
+.copy{
+color: #FFF;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+/* line-height: normal; */
+
+
+justify-content:end;
+}
+
+.aabt{
+background: rgb(178, 35, 35); 
+color: #FFF;
+margin-bottom: 20px;
+
+}
+p,span,.bota,.anch,.log{
+font-family:Agbalumo,Ephesis,Lobster;
+}
+
+.foot{
+margin-top:50%;
+width: 99%;
+bottom:0;
+left: 0;
+height:290px;
+display:flex;
+flex-direction:row;
+flex-shrink: 0;
+border-radius: 8px;
+background-color: rgba(120, 43, 15, 0.912);
+border:solid 2px black;
+
+
+}
+
+.icons:after{
+content:"";
+position:absolute;
+width:0%;
+height:2.1px;
+background-color:rgba(245, 240, 240,0.5);
+left:0;
+bottom:0;
+transition:0.3s;
+}
+.icons{
+position: relative;
+}
+.icons:hover:after{
+width:100%;
+} 
+
+.lii:before{
+content:"";
+position:absolute;
+width:0%;
+height:2.1px;
+background-color:rgba(245, 240, 240,0.5);
+top:2px;
+right:1px;
+transition:0.3s;
+}
+.lii:hover:before{
+width:100%;
+}
+.lii{
+position: relative;
+}
+    
+.white2:hover{
+background-color: rgb(228, 13, 99);;
+    }
+
+    .white:hover{
+        background-color:red;
+    }
+    .abc,.abd{
+    margin-left:17.5%;
+    margin-top:13%;
+    
+        
+    }
+    .white,.white2{
+        background-color: rgb(26, 21, 21);
+        color:white;
+        width: 33px;
+        height:33px;
+        border-radius:50%;
+        margin-bottom:10px;
+        margin-top:10px;
+       margin-right:6px;
+    }
+    .white1{
+        margin-left:30%;
+    }
+    .botli{
+        font-size: 15px;
+background-color: transparent;
+width: 70px;
+padding: 10px;
+    }
+    .botli:hover{
+        border-bottom:2px solid white;
+    }
+   .botnav{
+  
+    margin-top:0px;
+display:flex;
+flex-direction:column;
+justify-content:start;
+   }
+   .bota{
+    
+color:white;
+   }
+   
+   .fb:hover{
+    background-color:rgb(26, 71, 144); 
+   }
+   .twit:hover{
+    background-color: rgb(15, 157, 200)
+   }
+   .pop {
+display: none;
+
+height: 300px;
+width:1000px;
+justify-content: center;
+
+margin-top: 20%;
+margin-left:30% ;
+margin-right:30% ;
+border: 3px solid #f1f1f1;
+z-index: -1;
+}
+.form-cont {
+
+padding: 10px;
+background-color: white;
+}
+.foot{
+
+margin-top:50%;
+width: 100%;
+bottom:0;
+left: 0;
+height: 296px;
+display:flex;
+flex-direction:row;
+flex-shrink: 0;
+border-radius: 8px;
+background-color: rgba(120, 43, 15, 0.912);
+border:solid 2px black;
+color:whitesmoke;
+
+
+}
+footer.foot{
+margin-top: 700px;
+padding: 30px;
+}
+
+.fcenter{
+justify-content: center;
+margin-left: 198px;
+}
+
+.fright{
+
+margin-left: 50px;
+margin-right: 10px;
+}
+
+.fleft{
+margin-left: 10px;
+}
+
+.fcopy{
+padding-top: 120px;
+}
+
+@keyframes load{
+0%{
+    opacity:0;
+}
+100%{
+   
+        opacity:1;
+    
+    
+}
+}
+.one{
+-webkit-animation:load 5s forwards;
+animation:load 5s forwards ;
+
+}
+.two{
+-webkit-animation:load 5s  1s forwards;
+animation:load 5s  1s forwards;
+
+}
+.three{
+-webkit-animation:load 5s  2s forwards;
+animation:load 5s  2s forwards;
+
+}
+.four{
+-webkit-animation:load 5s  3s forwards;
+animation:load 5s  3s forwards;
+
+}
+.ii{
+opacity:0;
+}
+.infom{
+width:40%;
+height:20%;
+background:rgba(0, 0, 0, 0.823);
+border:2px solid black;
+display:block !important;
+margin-top: 50%;
+margin-bottom: -45%;
+font-size:1.5em;
+border-radius:5%;
+text-align:center;
+font-family:"Cormorant Garamond";
+}
+h1,h3{
+font-family:"Abril Fatface";
+}

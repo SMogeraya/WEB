@@ -1,0 +1,161 @@
+
+h1,h2{
+    font-size: 51px;
+    font-weight: 80;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    width: 70%;
+margin: auto ;
+    text-shadow: 4px 7px 8px #121111;
+    text-align: center;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke-width: 2px;
+} 
+h1{
+    font-size: 65px;
+    margin: 15px auto;
+    
+    -webkit-text-stroke-width: 2px;
+}
+.conatiner{
+    width: 80%;
+    height: 90vh;
+    background-color: rgba(232, 104, 104, 0.4);
+    margin: auto;
+    margin-top: 70px;
+    border: 3px solid white;
+display: flex;
+flex-direction: column;
+}
+
+.cimg1{
+    width:23%;
+    height: 100%;
+    background-size: cover;
+    background: url("https://img.artpal.com/3057/4-47-34t.jpg");
+    background-size: cover;
+    border: 2px solid white;
+}
+.cimg2{
+    width:23%;
+    height: 100%;
+   
+  background-size: cover;
+    background: url("https://th.bing.com/th/id/R.ef98100fb8bccef8e41a7af65627e4e2?rik=fr5l7jeROfbQBQ&riu=http%3a%2f%2fwww.artranked.com%2fimages%2f5b%2f5b0dbe3f7f9dc8db3cba2b8701af140c.jpg&ehk=P9bnjT1%2b7UEQyn1vBHYfQ4GrfXGK%2bON8PWiAmNN3x00%3d&risl=&pid=ImgRaw&r=0") ;
+    background-size: cover;
+    border: 2px solid white;
+    
+}
+.con1{
+    width: 95%;
+    height: 40vh; 
+    margin:20px auto;
+    border: 3px solid rgb(213, 129, 129);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 77%;
+}
+.cpara{
+    color: rgb(251, 245, 245);
+    width:77%;
+    text-align: center;
+    margin: 6% auto;
+   
+    
+}
+
+.a1{
+    margin-top: -9%;
+}
+.bton{
+width: 35%;
+height: 15%;
+margin-top: -5%;
+background-color: transparent !important;
+border: 2px solid white;
+color: rgb(0, 0, 0) !important;
+background-color: #ffffff9d !important;
+font-size: 1.19em;
+}
+.bton:hover{
+    border: 3px solid white;
+    font-size: 1em;
+}
+.ndec{
+  
+    padding: 10px;
+}
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    font-size:18px !important;
+    }
+    h3{
+        font-size: 35px;
+    }
+
+/* .inst2{
+    display: inline;
+    width:150px;
+    height: 170px;
+  
+    filter: drop-shadow(10px 10px 20px black);
+}
+.inst1{
+    width:130px;
+    height: 170px;
+   margin-top:70vh;
+    margin-left: 90%;
+    filter: drop-shadow(10px 10px 20px black);
+}
+.inst3{
+    width:170px;
+    height: 170px;
+    border-radius: 70px;
+    filter: drop-shadow(5px 5px 10px black);
+   margin-top: -10%;
+    margin-left: 0;
+} */
+
+
+
+body{
+     height: 150vh; 
+    
+    
+    background: url('https://i.pinimg.com/originals/74/73/98/7473984908e352422218a68b0b001026.jpg');
+    background-size: cover; 
+position: relative;
+}
+.titlee{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+}
+/* .card{
+    width:50%;
+    height: 30vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card img{
+    width: 50%;
+    justify-self: end;
+}
+.card div h1{
+    width: 50%;
+    font-size: 20px;
+    color: black;
+    justify-self: center;
+    align-items: center;
+}
+div{
+    width: 50%;
+} */
